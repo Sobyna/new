@@ -1,0 +1,31 @@
+kiwi
+
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+kiwi * 14,62,42,88,25,47,89,36,90,34,3,92,47,88,50,78,28,21,58,53,0,84,84,74,43,39,72,22,38,68,15,13,69,51,16,57,77,63,55,74,20,51,50,39,73,61,63,2,71,29,95,27,11,68,26,77,88,17,58,1,55,76,3,24,82,21,35,70,32,4,95,1,5,2,18,17,30,92,21,45,42,4,3,98,1,61,80,14,15,12,7,68,99,91
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+function addNumbers(a, b) { return a + b; }
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+grape
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+12,40,71,79,87,44,59,8,58,81,13,89,50,22,31,95,8,46 * 81
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+false / false
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+kiwi + grape
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+orange
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getUniqueValues = array => [...new Set(array)];
