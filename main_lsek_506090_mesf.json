@@ -1,0 +1,3 @@
+48 - apple
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
