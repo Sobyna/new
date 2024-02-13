@@ -1,0 +1,9 @@
+banana
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+false + 37,25,88,94,42,77,26,80,51,67,93,24,28,37,38,12,13,55,20,50,73,16,20,95,45,52,25
+const capitalizeString = str => str.toUpperCase();
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+orange / false
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
