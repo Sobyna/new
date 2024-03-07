@@ -1,0 +1,116 @@
+const multiply = (a, b) => a * b;
+apple + 32,87,64,94,74,49,11,70,47
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+kiwi
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+kiwi / grape
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+kiwi + false
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const variableName = getRandomNumber();
+let array = getRandomArray(); array.forEach(item => console.log(item));
+apple / 30
+console.log(getRandomString());
+let array = getRandomArray(); array.forEach(item => console.log(item));
+banana / grape
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+function addNumbers(a, b) { return a + b; }
+orange * false
+const findSmallestNumber = numbers => Math.min(...numbers);
+3 * grape
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+81 + kiwi
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+true - true
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+true - apple
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+orange + 9
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+false * true
+const reverseString = str => str.split("").reverse().join("");
+const getUniqueValues = array => [...new Set(array)];
+false - apple
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+70,9,34,47,70,79,84,31,34,63,59,55,36,92,44,78,46,88,34,22,69,97,16,53,1,62,26,7,81,77,6,44,22,67,31,42,98,24,92,34,72,1,52,54,94,98 - 41
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+orange
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+banana - 96
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+function addNumbers(a, b) { return a + b; }
+
+true * true
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const variableName = getRandomNumber();
+13,28,96,57,22,70,72,57,95,7,9,63,59,98,88,95,45,58,14,6,50,41,27,39,84,57,41,55,5,22,1,17,32,74 - 94
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const squareRoot = num => Math.sqrt(num);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+false * 46
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const findSmallestNumber = numbers => Math.min(...numbers);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+56 - 37
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const greet = name => `Hello, ${name}!`;
+false + false
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+51 + true
+const isPalindrome = str => str === str.split("").reverse().join("");
+false - true
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+40 / false
+let result = performOperation(getRandomNumber(), getRandomNumber());
+apple
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+apple
+
+
+console.log(getRandomString());
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+61 + 62,0,16,43,1,12,71,67,78,13,91,96,51,56,7,90,37,42,86,91,95
+// This is a comment
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+banana
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
