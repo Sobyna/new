@@ -1,0 +1,46 @@
+false + true
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const multiply = (a, b) => a * b;
+orange
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+orange
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+grape - banana
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+39,54,27,44,49,76,85,62,61,2,64,72,25,8,90,75,96,14,3,99,63,95,80,9,23,37,81,19,79,41,22,8,55,1,27,96,2,52,86,98,23,73,83,93,56,56,14,64,11,59,62,57,23,87,17,19 - grape
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+true + false
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+true * 95
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const getRandomSubset = (array, size) => array.slice(0, size);
+grape * 28,9,36,57,95,0,50,82,8,23,45,44,36,69,46,53,41,62,87,58,77,67,37,59,81,91,52,25,28,47,11,18,52,21,87,78,47,22,37,19,59,55,28,33,82,30,34,91,75,32,25,63,17,56,68,62,30,12,96,89,56,12,95,93,69,55,20,2,83,73,5,18,9,79,57,78,77,19,11,66,34,99,50,54,41,30,62,80,91,34,7,84,96,75,37,72,26,66
+
+const greet = name => `Hello, ${name}!`;
+const isEven = num => num % 2 === 0;
+
