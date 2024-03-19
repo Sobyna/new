@@ -1,0 +1,15 @@
+41,84,11,24,95,65,26,19,15,34,22,99,5,60,45,8,9,68,64,67,55,63,45,35,90,17,34,93,33,12,72,73,62,66,87,77,82,11,75,34,85,31,65,45,50,30,0,87,14,52,8,45,41,70,20,14,57,62,72,55,83,13,70,88,53,81,53,86,39,99,72,74,84,5,60,97,80 * apple
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+false / true
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+38,80,93,20,60,53,94,28,0,92,65,1,89,8,88,30,85,54,76,44,63,39,29,17,31,17,65,5,50,19,7,17,30,61,84,73,17,6,87,71,88,37,42,88,19,63,97,84,53,83,35,79,73,80,71,82,33,61,42,14,89,85,65,13,18,48,39,96,70,89,67,77,53,1,78,14,59,47,47,57,6,10,65,66 + 30,65,11,1,18,69,6,42,1,64
+const sum = (a, b) => a + b;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
